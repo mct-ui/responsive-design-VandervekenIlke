@@ -393,8 +393,19 @@ a:focus {
     color: #5051DB;
 }
 
+.c-header__nav {
+    display: none;
+}
 
+@media (min-width: 992px) {
+    .c-header {
+        
+    }
 
+    .c-header__nav {
+        display: block;
+    }
+}
 
 /*------------------------------------*\
   #UTILITIES
