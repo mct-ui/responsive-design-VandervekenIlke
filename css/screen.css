@@ -347,6 +347,13 @@ a:focus {
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
+.c-logo {
+    height: 32px;
+}
+
+.c-logo__symbol {
+    height: 100%;
+}
 
 /*------------------------------------*\
   #UTILITIES
@@ -623,6 +630,11 @@ a:focus {
     Inlined to avoid the additional HTTP request:
     http://www.phpied.com/delay-loading-your-print-css/
 */
+@media (min-width: 768px) {
+    .c-logo__symbol {
+        height: 40px;
+    }
+}
 
 @media print {
     *,
